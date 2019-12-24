@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1 style="color:brown">Registration Form</h1>
+</head>
+<body style="background-color:lightblue">
+
+
+<form action="">
+  First name:<br>
+  <input type="text" name="firstname" required>
+  <br><br>
+  
+  Last name:<br>
+  <input type="text" name="lastname" required>
+  <br><br>
+  
+  Gender:<br>
+  <input type="radio" name="gender" value="male">Male<br>
+  <input type="radio" name="gender" value="female">Female<br>
+  <input type="radio" name="gender" value="other">Other<br>
+  <br><br>
+  
+  
+  Date:<br>
+  <input type="date" name="date" value="" required>
+  <br><br>
+  
+  City:<br>
+  <select name="city">
+    <option value="pune">Pune</option>
+    <option value="mumbai">Mumbai</option>
+    <option value="nashik">nashik</option>
+    </select>
+  <br><br>
+  
+  Country:<br>
+  <select name="country">
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="canada">Canada</option>
+    </select>
+  <br><br>
+  
+  Address:<br>
+  <textarea name="address" rows="3" cols="30" required>
+  </textarea>
+   <br><br>
+  
+  
+  Mobile Number:<br>
+  <input type="tel" name="phone" pattern="[0-9]{10}" required>
+  <br><br>
+  
+  
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
